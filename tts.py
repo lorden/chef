@@ -19,6 +19,6 @@ class TTS:
 
     def say(self, text):
         self.get_file(self.root + text)
-        subprocess.call(['mplayer', '-really-quiet', self.temp_file],
+        subprocess.call(['omxplayer', self.temp_file],
                         stdout=open(os.devnull, 'wb'),
                         stderr=open(os.devnull, 'wb'))
