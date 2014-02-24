@@ -1,0 +1,13 @@
+{
+	"recipe_name": "Ice Cream Cone",
+	"ingredients": [
+		{"amount": "2 scoops", "ingredient": "ice cream"},
+		{"amount": "1", "ingredient": "sugar cone"}
+	],
+	"instructions": [
+		"Remove ice cream from freezer and wait a few minutes until it is soft enough to scoop easily.",
+		"Form 2 spheres of ice cream.",
+		"Gently press the first sphere into the cone, being careful not to apply too much pressure and break it.",
+		"Place the second sphere on top of the cone. Enjoy!"
+	]
+}
